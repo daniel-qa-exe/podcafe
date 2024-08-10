@@ -11,57 +11,67 @@
         border-radius: 50%;
       }
     </style> 
-    
-  
   </head>
   <body>
-    <!--barra de navegação-->
+    <header>
+        <!--barra de navegação-->
     <nav class="navbar bg-success">
-      <div class="container">
-        <img class="logo-img" src="img/cafelogo.jpeg" alt="Logo"  width="50" height="50">
+      <div class="container-fluid">
+       <a href="index.html"><img class="logo-img" src="img/cafelogo.jpeg" alt="Logo"  width="50" height="50"></a> 
+        <div class="navbar">
+          <span href="#" class="btn btn-outline-dark">Episódios</span>
+        </div>
       </div>
     </nav>
-    <h2 class="text-center">Bem vindo ao podcast mas cafezado que existe</h2>
-    <!--cards-->
-    <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+    </header>
+    <main>
+      <h2 class="text-center">Bem vindo ao podcast mas cafezado que existe</h2>
+      <!--cards-->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/cafelogo.jpeg" class="card-img-top"  height="300">
+              <div class="card-body">
+                  <h5 class="card-title">Episodio tal </h5>
+                  <p class="card-text">textinho sobre o episodio</p>
+                  <a href="#" class="btn btn-success">link da pagina do episodio</a>
+              </div>
+            </div>
+          </div>
         
-        <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/cafelogo.jpeg" class="card-img-top" width="80" height="150">
-            <div class="card-body">
-                <h5 class="card-title">Episodio tal </h5>
-                <p class="card-text">textinho sobre o episodio</p>
-                <a href="#" class="btn btn-success">link da pagina do episodio</a>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/cafelogo.jpeg" class="card-img-top"  height="300">
+              <div class="card-body">
+                  <h5 class="card-title">Episodio tal </h5>
+                  <p class="card-text">textinho sobre o episodio</p>
+                  <a href="#" class="btn btn-success">link da pagina do episodio</a>
+              </div>
             </div>
           </div>
-        </div>
-      
-        <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/cafelogo.jpeg" class="card-img-top" width="80" height="150">
-            <div class="card-body">
-                <h5 class="card-title">Episodio tal </h5>
-                <p class="card-text">textinho sobre o episodio</p>
-                <a href="#" class="btn btn-success">link da pagina do episodio</a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/cafelogo.jpeg" class="card-img-top" width="80" height="150">
-            <div class="card-body">
-                <h5 class="card-title">Episodio tal </h5>
-                <p class="card-text">textinho sobre o episodio</p>
-                <a href="#" class="btn btn-success">link da pagina do episodio</a>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/cafelogo.jpeg" class="card-img-top"  height="300">
+              <div class="card-body">
+                  <h5 class="card-title">Episodio tal </h5>
+                  <p class="card-text">textinho sobre o episodio</p>
+                  <a href="#" class="btn btn-success">link da pagina do episodio</a>
+              </div>
             </div>
           </div>
-        </div>
 
+        </div>
+      </div>  
+    </main>
+    <footer class="footer mt-auto py-4 bg-success fixed-bottom">
+      <div class="text-center">
+        <span class="text-body-dark"><b>© Café com...</b></span>
       </div>
-    </div>
- 
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
